@@ -16,16 +16,14 @@ After creating the virtual environment, you need to activate it.
 source .venv/bin/activate
 ```
 
-### On Windows:
-
-```powershell
-# If your virtual environment is named .venv and is in the project root:
-.venv\Scripts\activate
-```
-
 ## Project Structure
 
 Add your project structure and additional documentation here.
+
+## Install uv package
+curl -Ls https://astral.sh/uv/install.sh | sh
+
+
 
 ## Step 1: Upgrade pip, setuptools, and wheel (optional with uv, but included for compatibility)
 
@@ -43,3 +41,7 @@ uv pip install -U spacy
 
 ```bash
 python -m spacy download en_core_web_lg
+
+
+## Run requirements.txt
+uv pip install -r requirements.txt

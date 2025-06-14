@@ -1,0 +1,71 @@
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# uv package manager cache
+.uv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Logs
+logs/
+*.log
+
+# Data files
+*.csv
+*.tsv
+*.h5
+*.db
+*.sqlite
+*.parquet
+*.npy
+*.npz
+*.joblib
+*.pkl
+
+# Secrets
+.env
+*.key
+*.pem
+
+# Model files
+*.model
+*.spacy
+*.pt
+*.onnx
+*.hdf5
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE settings
+.vscode/
+.idea/
+
+# Test & Coverage
+htmlcov/
+coverage.xml
+.pytest_cache/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# Temporary files
+*.bak
+*.tmp
+*.swp
+*.swo
+
+# Mac M1 wheel cache
+*.dylib
