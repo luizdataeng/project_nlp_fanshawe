@@ -43,5 +43,7 @@ uv pip install -U spacy
 python -m spacy download en_core_web_lg
 
 
+python -m spacy download en_core_web_md
+
 ## Run requirements.txt
 uv pip install -r requirements.txt
